@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo" href="./index.html">
+            <img
+              class="logo-img"
+              src="./images/header/logo.png"
+              alt="логотип веб студии"
+              width="152"
+              height="20"
+            />
+          </a>
+          <ul class="navigation-list list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="">Студия </a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="./poftfolio.html"
+                >Портфолио
+              </a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href=""> Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-list-item">
+              <a
+                class="address-list-item-mail link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-list-item">
+              <a class="address-list-item-tel link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main>
+      <!--Hero-->
+      <section class="hero">
+        <h1 class="hero-title">
+          ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
+          ДЛЯ ВАШЕГО БИЗНЕСА
+        </h1>
+        <button class="modal-btn" type="button">Заказать услугу</button>
+      </section>
+      <!--advantages-->
+      <section class="advantages section">
+        <div class="container">
+        <h2 class="advantages-title" hidden>fff</h2>
+        <ul class="advantages-list list">
+          <li class="advantages-list-item">
+            <div class="advantages-content">
+              <img
+                class="advantages-img-icon"
+                src="./images/advantages/1.png"
+                alt="иконка спутника"
+                width="66"
+                height="70"
+              />
+              <h3 class="subtitle">Внимание к деталям</h3>
+              <p class="discription">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </div>
+          </li>
+          <li class="advantages-list-item">
+            <div class="advantages-content">
+              <img
+                class="advantages-img-icon"
+                src="./images/advantages/2.png"
+                alt="иконка часов"
+                width="66"
+                height="70"
+              />
+              <h3 class="subtitle">Пунктуальность</h3>
+              <p class="discription">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </div>
+          </li>
+          <li class="advantages-list-item">
+            <div class="advantages-content">
+              <img
+                class="advantages-img-icon"
+                src="./images/advantages/3.png"
+                alt="иконка компьютера"
+                width="66"
+                height="70"
+              />
+              <h3 class="subtitle">Планирование</h3>
+              <p class="discription">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </div>
+          </li>
+          <li class="advantages-list-item">
+            <div class="advantages-content">
+              <img
+                class="advantages-img-icon"
+                src="./images/advantages/4.png"
+                alt="иконка робота"
+                width="66"
+                height="70"
+              />
+              <h3 class="advantages-subtitle">Современные технологии</h3>
+              <p class="discription">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </div>
+          </li>
+        </ul>
+        </div>
+      </section>
+      <!--about us-->
+      <section class="about section">
+        <div class="container">
+        <h2 class="title">Чем мы занимаемся</h2>
+        <ul class="about-list list">
+          <li class="about-list-item">
+            <img
+              src="./images/about/1.jpg"
+              alt="мужские руки на клавиатуре ноутбука"
+              width="370"
+              height="294"
+            />
+            <p class="about-list-title">Десктопные приложения</p>
+          </li>
+          <li class="about-list-item">
+            <img
+              src="./images/about/2.jpg"
+              alt="смартфон"
+              width="370"
+              height="294"
+            />
+            <p class="about-list-title">Мобильные приложения</p>
+          </li>
+          <li class="about-list-item">
+            <img
+              src="./images/about/3.jpg"
+              alt="монитор апл"
+              width="370"
+              height="294"
+            />
+            <p class="about-list-title">Дизайнерские решения</p>
+          </li>
+        </ul>
+        </div>
+      </section>
+      <!--team-->
+      <section class="co-workers section">
+        <div class="container">
+        <h2 class="title">Наша команда</h2>
+        <ul class="co-workers-list list">
+          <li class="co-workers-list-item">
+            <img
+              src="./images/team/1.jpg"
+              alt="рыжий парень с бородой"
+              width="270"
+              height="260"
+            />
+            <div class="co-worker-content">
+              <h3 class="co-worker-name">Николай Кучеренко</h3>
+              <p class="co-worker-description">Product Designer</p>
+              <ul class="co-worker-list-discription list">
+                <li class="co-worker-list-discription-item">
+                  <a class="co-worker-list-discription-link link" href=""
+                    ><img
+                      class="co-worker-list-discription-img"
+                      src="./images/team/in.png"
+                      alt="лого инстаграм"
+                      width="20"
+                      height="20"
+                  /></a>
+                </li>
+                <li class="co-worker-list-discription-item">
+                  <a class="co-worker-list-discription-link link" href=""
+                    ><img
+                      class="co-worker-list-discription-img"
+                      src="./images/team/tw.png"
+                      alt="лого твитер"
+                      width="20"
+                      height="20"
+                  /></a>
+                </li>
+                <li class="co-worker-list-discription-item">
+                  <a class="co-worker-list-discription-link link" href=""
+                    ><img
+                      class="co-worker-list-discription-img"
+                      src="./images/team/fb.png"
+                      alt="лого фейсбук"
+                      width="20"
+                      height="20"
+                  /></a>
+                </li>
+                <li class="co-worker-list-discription-item">
+                  <a class="co-worker-list-discription-link link" href=""
+                    ><img
+                      class="co-worker-list-discription-img"
+                      src="./images/team/ln.png"
+                      alt="лого линкедин"
+                      width="20"
+                      height="20"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="co-workers-list-item">
+            <img
+              src="./images/team/2.jpg"
+              alt="рыжий парень с бородой"
+              width="270"
+              height="260"
+            />
+            <div class="co-worker-content">
+            <h3 class="co-worker-name">Ольга Иванова</h3>
+            <p class="co-worker-description">Frontend Developer</p>
+            <ul class="co-worker-list-discription list">
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/in.png"
+                    alt="лого инстаграм"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/tw.png"
+                    alt="лого твитер"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/fb.png"
+                    alt="лого фейсбук"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/ln.png"
+                    alt="лого линкедин"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+            </ul>
+            </div>
+          </li>
+          <li class="co-workers-list-item">
+            <img
+              src="./images/team/3.jpg"
+              alt="рыжий парень с бородой"
+              width="270"
+              height="260"
+            />
+            <div class="co-worker-content">
+            <h3 class="co-worker-name">Андрей Шевченко</h3>
+            <p class="co-worker-description">Marketing</p>
+            <ul class="co-worker-list-discription list">
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/in.png"
+                    alt="лого инстаграм"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/tw.png"
+                    alt="лого твитер"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/fb.png"
+                    alt="лого фейсбук"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/ln.png"
+                    alt="лого линкедин"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li class="co-workers-list-item">
+            <img
+              src="./images/team/4.jpg"
+              alt="рыжий парень с бородой"
+              width="270"
+              height="260"
+            />
+            <div class="co-worker-content">
+            <h3 class="co-worker-name">Иван Николаев</h3>
+            <p class="co-worker-description">UI Designer</p>
+            <ul class="co-worker-list-discription list">
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/in.png"
+                    alt="лого инстаграм"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/tw.png"
+                    alt="лого твитер"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/fb.png"
+                    alt="лого фейсбук"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+              <li class="co-worker-list-discription-item">
+                <a class="co-worker-list-discription-link link" href=""
+                  ><img
+                    class="co-worker-list-discription-img"
+                    src="./images/team/ln.png"
+                    alt="лого линкедин"
+                    width="20"
+                    height="20"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          </div>
+        </ul>
+      </section>
+      </div>
+      <!--clients-->
+      <section class="clients section">
+        <div class="container">
+        <h2 class="title">Постоянные клиенты</h2>
+        <ul class="clients-list list">
+          <li class="clients-list-item">
+            <img src="./images/clients/1.png" alt="лого компании YA & CO" />
+          </li>
+          <li class="clients-list-item">
+            <img
+              src="./images/clients/2.png"
+              alt="лого компании company tagline here"
+            />
+          </li>
+          <li class="clients-list-item">
+            <img src="./images/clients/3.png" alt="лого компании company" />
+          </li>
+          <li class="clients-list-item">
+            <img
+              src="./images/clients/4.png"
+              alt="лого компании Foster peters"
+            />
+          </li>
+          <li class="clients-list-item">
+            <img src="./images/clients/5.png" alt="лого компании brand" />
+          </li>
+          <li class="clients-list-item">
+            <img
+              src="./images/clients/6.png"
+              alt="лого компании company tag line"
+            />
+          </li>
+        </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="address-footer">
+          <a class="logo" href="./index.html">
+            <img class="logo-img" src="./images/header/logo.png" alt="логотип веб студии" width="152" height="20" />
+          </a>
+          <address class="address-footer-add">
+            <p class="address-fact">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address-list-footer list">
+              <li class="address-list-item">
+                <a class="address-list-item-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="address-list-item">
+                <a class="address-list-item-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="subscription-social">
+          <h3 class="subscription-title">присоединяйтесь</h2>
+            <ul class="subscription-list list">
+              <li class="subscription-list-item">
+                <a href=""><img src="./images/footer/1.png" alt="лого инстаграм" width="20" height="20" /></a>
+              </li>
+              <li class="subscription-list-item">
+                <a href=""><img src="./images/footer/2.png" alt="лого твитер" width="20" height="20" /></a>
+              </li>
+              <li class="subscription-list-item">
+                <a href=""><img src="./images/footer/3.png" alt="лого фейбук" width="20" height="20" /></a>
+              </li>
+              <li class="subscription-list-item">
+                <a href=""><img src="./images/footer/4.png" alt="лого линкедин" width="20" height="20" /></a>
+              </li>
+            </ul>
+        </div>
+        <div class="subscription">
+          <h3 class="subscription-title">Подпишитесь на рассылку</h3>
+          <input class="subscription-input" type="text" size="40" />
+          <button class="subscription-btn" type="submit">Подписаться</button>
+          <img src="./images/footer/icon_send.png" alt="пиктограмма письма" />
+        </div>
+      </div>
+    </footer> 
+  </body>
+</html>
